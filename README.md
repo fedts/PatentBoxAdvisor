@@ -1,23 +1,21 @@
 # PatentBoxAdvisor.it
 
-Sito web professionale per consulenza fiscale specializzata Patent Box 2025.
+Professional consulting website for Italian Patent Box advisory services targeting C-level executives of companies with >€50M revenue.
 
-## 📋 Panoramica Progetto
+## Features
 
-PatentBoxAdvisor.it è un sito web ottimizzato per la lead generation nel settore delle agevolazioni fiscali Patent Box, costruito con tecnologie moderne per garantire performance, SEO e conversioni ottimali.
+- **Corporate Design**: Executive-grade design following KPMG/BCG/Bain standards
+- **Modern UI**: Glassmorphism effects, premium animations, and responsive layouts
+- **Lead Generation**: Strategic contact forms for CFOs and Tax Directors
+- **Compliance**: Full GDPR compliance with legal frameworks
+- **Professional Content**: Italian corporate communication standards
 
-### 🎯 Obiettivi Business
-- Lead generation qualificata per consulenza Patent Box
-- Massimizzazione conversioni con scadenza 29 gennaio 2025
-- Posizionamento autorevole nel mercato consulenza fiscale
-- Full compliance GDPR e normative italiane
+## Technology Stack
 
-### 🛠 Tech Stack
-- **Framework**: Astro 5.x (SSG ottimizzato per SEO)
-- **Styling**: Tailwind CSS 3.x
-- **Deployment**: Statico (Netlify/Vercel ready)
-- **SEO**: Sitemap automatica, Open Graph, Schema markup
-- **Analytics**: Google Analytics, conversion tracking ready
+- **Framework**: Astro (Static Site Generator)
+- **Styling**: TailwindCSS with custom corporate design system
+- **Typography**: IBM Plex Sans for corporate credibility
+- **Deployment**: Vercel with optimized build pipeline
 
 ## 🚀 Struttura Progetto
 
