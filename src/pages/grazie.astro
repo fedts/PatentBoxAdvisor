@@ -1,0 +1,140 @@
+---
+// Thank You Page
+const title = "Grazie per la tua richiesta | PatentBoxAdvisor";
+const description = "Richiesta ricevuta! Ti contatteremo entro 24 ore per la consulenza Patent Box gratuita.";
+---
+
+<html lang="it">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="generator" content={Astro.generator} />
+		
+		<!-- SEO Meta Tags -->
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<meta name="robots" content="noindex, nofollow" />
+	</head>
+	<body class="font-sans antialiased bg-gray-50">
+		
+		<!-- Header -->
+		<header class="bg-white shadow-sm border-b">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="flex justify-between items-center py-4">
+					<div class="flex items-center">
+						<a href="/" class="text-2xl font-bold text-blue-800">PatentBoxAdvisor.it</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Thank You Section -->
+		<section class="py-16">
+			<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+				
+				<!-- Success Icon -->
+				<div class="bg-green-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-8">
+					<svg class="w-12 h-12 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+					</svg>
+				</div>
+				
+				<!-- Main Message -->
+				<h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+					Richiesta Ricevuta!
+				</h1>
+				
+				<p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
+					Grazie per aver richiesto la consulenza Patent Box. Il nostro team ti contatterà 
+					<strong>entro 24 ore</strong> per fissare l'appuntamento gratuito di 30 minuti.
+				</p>
+				
+				<!-- Next Steps -->
+				<div class="bg-white rounded-lg p-8 shadow-sm max-w-2xl mx-auto mb-8">
+					<h2 class="text-2xl font-bold text-blue-800 mb-6">Prossimi Passi</h2>
+					
+					<div class="space-y-6 text-left">
+						<div class="flex items-start">
+							<div class="bg-blue-100 w-8 h-8 rounded-full flex items-center justify-center mr-4 mt-1">
+								<span class="text-blue-600 font-bold">1</span>
+							</div>
+							<div>
+								<h3 class="font-semibold text-lg mb-2">Contatto Immediato</h3>
+								<p class="text-gray-600">Ti chiameremo entro 24 ore per confermare l'appuntamento e raccogliere informazioni preliminari sui tuoi beni immateriali.</p>
+							</div>
+						</div>
+						
+						<div class="flex items-start">
+							<div class="bg-blue-100 w-8 h-8 rounded-full flex items-center justify-center mr-4 mt-1">
+								<span class="text-blue-600 font-bold">2</span>
+							</div>
+							<div>
+								<h3 class="font-semibold text-lg mb-2">Consulenza Gratuita</h3>
+								<p class="text-gray-600">Sessione di 30 minuti per analizzare la tua situazione e calcolare il potenziale risparmio fiscale con il Patent Box.</p>
+							</div>
+						</div>
+						
+						<div class="flex items-start">
+							<div class="bg-blue-100 w-8 h-8 rounded-full flex items-center justify-center mr-4 mt-1">
+								<span class="text-blue-600 font-bold">3</span>
+							</div>
+							<div>
+								<h3 class="font-semibold text-lg mb-2">Proposta Personalizzata</h3>
+								<p class="text-gray-600">Se idoneo, riceverai una proposta dettagliata per massimizzare le agevolazioni Patent Box entro la scadenza del 29 gennaio.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Contact Info -->
+				<div class="bg-blue-50 rounded-lg p-6 max-w-md mx-auto mb-8">
+					<h3 class="text-lg font-semibold mb-4">Hai domande urgenti?</h3>
+					<div class="space-y-2">
+						<p>📞 <strong>Chiamata diretta:</strong> +39 02 1234 5678</p>
+						<p>✉️ <strong>Email:</strong> info@patentboxadvisor.it</p>
+						<p>⏰ <strong>Orari:</strong> Lun-Ven 9:00-18:00</p>
+					</div>
+				</div>
+				
+				<!-- Urgency Reminder -->
+				<div class="bg-red-100 border border-red-300 rounded-lg p-6 max-w-2xl mx-auto mb-8">
+					<h3 class="text-lg font-semibold text-red-800 mb-2">⚠️ Ricorda la Scadenza</h3>
+					<p class="text-red-700">
+						Il Patent Box 2025 scade il <strong>29 gennaio 2025</strong>. 
+						Non perdere questa opportunità di risparmio fiscale!
+					</p>
+				</div>
+				
+				<!-- Back to Homepage -->
+				<a href="/" class="bg-blue-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-900 transition-colors inline-block">
+					Torna alla Homepage
+				</a>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="bg-gray-800 text-white py-8">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+				<p>&copy; 2025 PatentBoxAdvisor.it - Tutti i diritti riservati</p>
+			</div>
+		</footer>
+
+		<!-- Conversion Tracking -->
+		<script>
+			// Google Analytics conversion tracking
+			if (typeof gtag !== 'undefined') {
+				gtag('event', 'conversion', {
+					send_to: 'AW-CONVERSION_ID/CONVERSION_LABEL',
+					value: 1.0,
+					currency: 'EUR'
+				});
+			}
+			
+			// Facebook Pixel conversion tracking
+			if (typeof fbq !== 'undefined') {
+				fbq('track', 'Lead');
+			}
+		</script>
+	</body>
+</html>
