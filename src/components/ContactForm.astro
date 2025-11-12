@@ -2,68 +2,66 @@
 // Executive Contact Form Component - Corporate Grade
 ---
 
-<div class="bg-white/90 backdrop-blur-sm shadow-premium-2xl border border-corporate-navy-200/30 rounded-2xl p-8 text-corporate-navy-900 max-w-lg mx-auto relative overflow-hidden">
-  <!-- Background Blur Effect -->
-  <div class="absolute inset-0 bg-gradient-to-br from-corporate-blue-50/50 via-white to-premium-gold-50/30 -z-10"></div>
+<div class="bg-white rounded-2xl shadow-lg border border-neutral-200 p-8 text-executive-900 max-w-lg mx-auto">
   
   <!-- Form Header -->
   <div class="mb-8">
-    <div class="inline-flex items-center px-4 py-2 bg-corporate-blue-50/80 text-corporate-blue-700 text-xs font-semibold tracking-wide uppercase border border-corporate-blue-200/50 rounded-full mb-4 animate-fade-in">
-      Assessment Executive
+    <div class="inline-flex items-center px-3 py-1 bg-executive-blue-50 text-executive-blue-700 text-xs font-medium tracking-wide uppercase border border-executive-blue-200 rounded-full mb-4">
+      Valutazione Strategica
     </div>
-    <h3 class="text-2xl font-semibold text-corporate-navy-900 mb-2 animate-slide-up">Richiedi Consulenza Strategica</h3>
-    <p class="text-sm text-corporate-navy-600 animate-slide-up">Riservato a CFO, Tax Directors e C-Level aziende >€50M fatturato</p>
+    <h3 class="text-xl font-semibold text-executive-900 mb-2">Richiedi Consulenza Patent Box</h3>
+    <p class="text-sm text-neutral-600">Riservato a CFO, Tax Directors e C-Level aziende >€50M fatturato</p>
   </div>
   
   <form id="contactForm" class="space-y-6">
     <!-- Executive Details -->
     <div class="grid grid-cols-2 gap-4">
       <div>
-        <label class="block text-sm font-medium text-corporate-navy-700 mb-2">Nome *</label>
+        <label class="block text-sm font-medium text-executive-700 mb-2">Nome *</label>
         <input 
           type="text" 
           name="nome"
           required 
-          class="w-full px-4 py-3 border border-corporate-navy-300/50 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-corporate-blue-500 focus:border-corporate-blue-500 bg-white/80 backdrop-blur-xs transition-all duration-200" 
+          class="w-full px-4 py-3 border border-neutral-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-executive-blue-500 focus:border-executive-blue-500 bg-white transition-all duration-200" 
         />
       </div>
       <div>
-        <label class="block text-sm font-medium text-corporate-navy-700 mb-2">Cognome *</label>
+        <label class="block text-sm font-medium text-executive-700 mb-2">Cognome *</label>
         <input 
           type="text" 
           name="cognome"
           required 
-          class="w-full px-4 py-3 border border-corporate-navy-300/50 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-corporate-blue-500 focus:border-corporate-blue-500 bg-white/80 backdrop-blur-xs transition-all duration-200" 
+          class="w-full px-4 py-3 border border-neutral-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-executive-blue-500 focus:border-executive-blue-500 bg-white transition-all duration-200" 
         />
       </div>
     </div>
     
     <div>
-      <label class="block text-sm font-medium text-corporate-navy-700 mb-2">Email Aziendale *</label>
+      <label class="block text-sm font-medium text-executive-700 mb-2">Email Aziendale *</label>
       <input 
         type="email" 
         name="email"
         required 
-        class="w-full px-4 py-3 border border-corporate-navy-300/50 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-corporate-blue-500 focus:border-corporate-blue-500 bg-white/80 backdrop-blur-xs transition-all duration-200" 
+        class="w-full px-4 py-3 border border-neutral-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-executive-blue-500 focus:border-executive-blue-500 bg-white transition-all duration-200" 
       />
     </div>
     
     <div class="grid grid-cols-2 gap-4">
       <div>
-        <label class="block text-sm font-medium text-corporate-navy-700 mb-2">Azienda *</label>
+        <label class="block text-sm font-medium text-executive-700 mb-2">Azienda *</label>
         <input 
           type="text" 
           name="azienda"
           required 
-          class="w-full px-4 py-3 border border-corporate-navy-300/50 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-corporate-blue-500 focus:border-corporate-blue-500 bg-white/80 backdrop-blur-xs transition-all duration-200" 
+          class="w-full px-4 py-3 border border-executive-300/50 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-executive-blue-500 focus:border-executive-blue-500 bg-white/80 backdrop-blur-xs transition-all duration-200" 
         />
       </div>
       <div>
-        <label class="block text-sm font-medium text-corporate-navy-700 mb-2">Ruolo *</label>
+        <label class="block text-sm font-medium text-executive-700 mb-2">Ruolo *</label>
         <select 
           name="ruolo"
           required 
-          class="w-full px-4 py-3 border border-corporate-navy-300/50 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-corporate-blue-500 focus:border-corporate-blue-500 bg-white/80 backdrop-blur-xs transition-all duration-200"
+          class="w-full px-4 py-3 border border-executive-300/50 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-executive-blue-500 focus:border-executive-blue-500 bg-white/80 backdrop-blur-xs transition-all duration-200"
         >
           <option value="">Seleziona ruolo</option>
           <option value="cfo">CFO</option>
@@ -76,11 +74,11 @@
     </div>
     
     <div>
-      <label class="block text-sm font-medium text-corporate-navy-700 mb-2">Fatturato Annuo *</label>
+      <label class="block text-sm font-medium text-executive-700 mb-2">Fatturato Annuo *</label>
       <select 
         name="fatturato"
         required 
-        class="w-full px-4 py-3 border border-corporate-navy-300/50 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-corporate-blue-500 focus:border-corporate-blue-500 bg-white/80 backdrop-blur-xs transition-all duration-200"
+        class="w-full px-4 py-3 border border-executive-300/50 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-executive-blue-500 focus:border-executive-blue-500 bg-white/80 backdrop-blur-xs transition-all duration-200"
       >
         <option value="">Seleziona fatturato</option>
         <option value="50m-100m">€50M - €100M</option>
@@ -92,27 +90,27 @@
     </div>
     
     <div>
-      <label class="block text-sm font-medium text-corporate-navy-700 mb-2">Asset Immateriali Rilevanti</label>
+      <label class="block text-sm font-medium text-executive-700 mb-2">Asset Immateriali Rilevanti</label>
       <textarea 
         name="descrizione"
         placeholder="Descrivi brevemente: software proprietari, brevetti, design registrati, marchi..." 
-        class="w-full px-4 py-3 border border-corporate-navy-300/50 rounded-lg text-sm h-24 focus:outline-none focus:ring-2 focus:ring-corporate-blue-500 focus:border-corporate-blue-500 bg-white/80 backdrop-blur-xs transition-all duration-200"
+        class="w-full px-4 py-3 border border-executive-300/50 rounded-lg text-sm h-24 focus:outline-none focus:ring-2 focus:ring-executive-blue-500 focus:border-executive-blue-500 bg-white/80 backdrop-blur-xs transition-all duration-200"
       ></textarea>
     </div>
     
-    <!-- Urgency Signal -->
-    <div class="bg-gradient-to-r from-premium-gold-50/80 to-premium-gold-100/50 border border-premium-gold-200/70 rounded-xl p-4 backdrop-blur-sm">
-      <div class="flex">
-        <svg class="h-5 w-5 text-premium-gold-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.704-.833-2.464 0L3.349 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+    <!-- Regulatory Notice -->
+    <div class="bg-executive-blue-50 border border-executive-blue-200 rounded-lg p-4">
+      <div class="flex items-start">
+        <svg class="h-4 w-4 text-executive-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
         </svg>
-        <div class="text-sm text-premium-gold-800">
-          <strong>Urgente:</strong> Scadenza dichiarazione tardiva Patent Box 2024 il 29 gennaio 2025
+        <div class="text-sm text-executive-blue-800">
+          <strong>Scadenza istanza:</strong> 29 gennaio 2025 - D.L. 50/2017
         </div>
       </div>
     </div>
     
-    <div class="text-xs text-corporate-navy-600">
+    <div class="text-xs text-neutral-600">
       <label class="flex items-start">
         <input 
           type="checkbox" 
@@ -120,38 +118,38 @@
           required 
           class="mt-1 mr-2 rounded" 
         />
-        <span>Accetto la <a href="/privacy" class="text-corporate-blue-600 underline font-medium hover:text-corporate-blue-700 transition-colors">Privacy Policy</a> e autorizzo il trattamento dei dati per finalità di consulenza fiscale specializzata.</span>
+        <span>Accetto la <a href="/privacy" class="text-executive-blue-600 underline font-medium hover:text-executive-blue-700 transition-colors">Privacy Policy</a> e autorizzo il trattamento dei dati per finalità di consulenza fiscale specializzata.</span>
       </label>
     </div>
     
     <button 
       type="submit" 
-      class="w-full bg-gradient-to-r from-corporate-blue-600 to-corporate-blue-700 text-white py-4 text-sm font-semibold hover:from-corporate-blue-700 hover:to-corporate-blue-800 transition-all duration-200 shadow-premium-lg rounded-xl disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-[1.02] active:scale-[0.98]"
+      class="w-full bg-executive-blue-600 text-white py-4 text-sm font-medium hover:bg-executive-blue-700 transition-all duration-200 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed"
       id="submitBtn"
     >
-      Richiedi Assessment Executive
+      Richiedi Valutazione Strategica
     </button>
     
     <div id="formMessage" class="hidden text-center p-3"></div>
   </form>
   
   <!-- Trust Signals -->
-  <div class="mt-8 pt-6 border-t border-corporate-navy-200/50">
-    <div class="space-y-3 text-sm text-corporate-navy-600">
+  <div class="mt-8 pt-6 border-t border-executive-200/50">
+    <div class="space-y-3 text-sm text-executive-600">
       <div class="flex items-center">
-        <svg class="h-4 w-4 text-trust-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg class="h-4 w-4 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
         </svg>
         <span><strong>Risposta garantita:</strong> Entro 4 ore lavorative</span>
       </div>
       <div class="flex items-center">
-        <svg class="h-4 w-4 text-trust-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg class="h-4 w-4 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
         </svg>
         <span><strong>Linea diretta:</strong> +39 02 1234 5678</span>
       </div>
       <div class="flex items-center">
-        <svg class="h-4 w-4 text-trust-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg class="h-4 w-4 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
         </svg>
         <span><strong>Confidenzialità:</strong> NDA standard corporate</span>
